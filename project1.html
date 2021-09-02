@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy</title>
+</head>
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/book.jpg);
+    }
+    .header {
+        background-color: rgba(201, 191, 191,0.4);
+    }
+    .first {
+        position: absolute;
+        left: 25px;
+        top: 60px;
+    }
+    .first img{
+        width: 40px;
+        height:30px;
+    }
+   .navbar {
+        display: inline-block;
+        margin: 29px 25px;
+    }
+    .second ul {
+        overflow: auto;
+    }
+    
+    .navbar li {
+        text-align: center;
+        list-style-type: none;
+        float: left;
+    }
+
+    .navbar li a {
+        color: rgb(134, 7, 71);
+        text-decoration: none;
+        padding: 15px 15px;
+    }
+
+    .navbar li a:hover {
+        color: rgb(168, 161, 161);
+    }
+
+    .third {
+        float: right;
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        display: inline-block;
+    }
+    .third button{
+        border-radius: 5px;
+        color: rgb(117, 9, 54);
+        background-color:grey ;
+    }
+    #border{
+        background-color: rgba(111, 199, 240, 0.5);
+        border-top: 2px solid rgb(6, 172, 240);
+        border-left: 6px solid rgb(6, 172, 238);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="first">
+            <img src="img/lib.jpg" alt="">
+            <div>Buddy</div>
+        </div>
+        <nav class="navbar">
+            <div class="second">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CATEGORIES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="third">
+            <button >Email us</button>
+        </div>
+    </header>
+    <div id="border">WELCOME</div>
+</body>
+
+</html>
