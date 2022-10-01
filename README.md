@@ -1,2 +1,2 @@
-# Project-2
-This is web development project.
+# Front End Development
+A front end web development project using HTML and CSS.
